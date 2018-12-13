@@ -14,6 +14,27 @@
 		566048DD21B62DE80075026F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566048DB21B62DE80075026F /* LaunchScreen.storyboard */; };
 		566048E821B62DE90075026F /* SharePlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566048E721B62DE90075026F /* SharePlayTests.swift */; };
 		566048F321B62DE90075026F /* SharePlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566048F221B62DE90075026F /* SharePlayUITests.swift */; };
+		5660490221B635AF0075026F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660490121B635AF0075026F /* User.swift */; };
+		5660490421B6582A0075026F /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660490321B6582A0075026F /* Serializable.swift */; };
+		5660490621B65F2C0075026F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660490521B65F2C0075026F /* Song.swift */; };
+		5660490821B664F60075026F /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660490721B664F60075026F /* Party.swift */; };
+		5660490B21B795B10075026F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660490A21B795B10075026F /* Request.swift */; };
+		5660490F21BC9F0F0075026F /* ResultCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660490E21BC9F0F0075026F /* ResultCallback.swift */; };
+		5660491321BCA16F0075026F /* AttemptLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491221BCA16F0075026F /* AttemptLoginService.swift */; };
+		5660491521BCAEFD0075026F /* GetAccessTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491421BCAEFD0075026F /* GetAccessTokenService.swift */; };
+		5660491721BCAFD80075026F /* GetRefreshedAccessTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491621BCAFD80075026F /* GetRefreshedAccessTokenService.swift */; };
+		5660491A21BCB0740075026F /* ApplicationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491921BCB0740075026F /* ApplicationUtil.swift */; };
+		5660491C21BCD77D0075026F /* AddSongToPartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491B21BCD77D0075026F /* AddSongToPartyService.swift */; };
+		5660491E21BCD8BE0075026F /* CreatePartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491D21BCD8BE0075026F /* CreatePartyService.swift */; };
+		5660492021BCD91D0075026F /* CreateTemporaryUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660491F21BCD91D0075026F /* CreateTemporaryUserService.swift */; };
+		5660492221BCD9D70075026F /* FinishSongService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492121BCD9D70075026F /* FinishSongService.swift */; };
+		5660492421BCDA990075026F /* GetPartyDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492321BCDA990075026F /* GetPartyDetailsService.swift */; };
+		5660492621BCDAE40075026F /* IncrementSongVoteCountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492521BCDAE40075026F /* IncrementSongVoteCountService.swift */; };
+		5660492821BCDB2A0075026F /* JoinPartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492721BCDB2A0075026F /* JoinPartyService.swift */; };
+		5660492A21BCDB7A0075026F /* LeavePartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492921BCDB7A0075026F /* LeavePartyService.swift */; };
+		5660492C21BCDBE40075026F /* RemoveSongFromPartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492B21BCDBE40075026F /* RemoveSongFromPartyService.swift */; };
+		5660492E21BCDC1B0075026F /* SendFCMTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492D21BCDC1B0075026F /* SendFCMTokenService.swift */; };
+		5660493021BD020C0075026F /* jsonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492F21BD020C0075026F /* jsonUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +68,27 @@
 		566048EE21B62DE90075026F /* SharePlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharePlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		566048F221B62DE90075026F /* SharePlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayUITests.swift; sourceTree = "<group>"; };
 		566048F421B62DE90075026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5660490121B635AF0075026F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5660490321B6582A0075026F /* Serializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		5660490521B65F2C0075026F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		5660490721B664F60075026F /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		5660490A21B795B10075026F /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5660490E21BC9F0F0075026F /* ResultCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCallback.swift; sourceTree = "<group>"; };
+		5660491221BCA16F0075026F /* AttemptLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttemptLoginService.swift; sourceTree = "<group>"; };
+		5660491421BCAEFD0075026F /* GetAccessTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAccessTokenService.swift; sourceTree = "<group>"; };
+		5660491621BCAFD80075026F /* GetRefreshedAccessTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRefreshedAccessTokenService.swift; sourceTree = "<group>"; };
+		5660491921BCB0740075026F /* ApplicationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationUtil.swift; sourceTree = "<group>"; };
+		5660491B21BCD77D0075026F /* AddSongToPartyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongToPartyService.swift; sourceTree = "<group>"; };
+		5660491D21BCD8BE0075026F /* CreatePartyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePartyService.swift; sourceTree = "<group>"; };
+		5660491F21BCD91D0075026F /* CreateTemporaryUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTemporaryUserService.swift; sourceTree = "<group>"; };
+		5660492121BCD9D70075026F /* FinishSongService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishSongService.swift; sourceTree = "<group>"; };
+		5660492321BCDA990075026F /* GetPartyDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPartyDetailsService.swift; sourceTree = "<group>"; };
+		5660492521BCDAE40075026F /* IncrementSongVoteCountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementSongVoteCountService.swift; sourceTree = "<group>"; };
+		5660492721BCDB2A0075026F /* JoinPartyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinPartyService.swift; sourceTree = "<group>"; };
+		5660492921BCDB7A0075026F /* LeavePartyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeavePartyService.swift; sourceTree = "<group>"; };
+		5660492B21BCDBE40075026F /* RemoveSongFromPartyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSongFromPartyService.swift; sourceTree = "<group>"; };
+		5660492D21BCDC1B0075026F /* SendFCMTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFCMTokenService.swift; sourceTree = "<group>"; };
+		5660492F21BD020C0075026F /* jsonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +139,9 @@
 		566048D121B62DE70075026F /* SharePlay */ = {
 			isa = PBXGroup;
 			children = (
+				5660491821BCB0360075026F /* Utils */,
+				5660490921B7956E0075026F /* API */,
+				5660490021B6359A0075026F /* Models */,
 				566048D221B62DE70075026F /* AppDelegate.swift */,
 				566048D421B62DE70075026F /* ViewController.swift */,
 				566048D621B62DE70075026F /* Main.storyboard */,
@@ -123,6 +168,64 @@
 				566048F421B62DE90075026F /* Info.plist */,
 			);
 			path = SharePlayUITests;
+			sourceTree = "<group>";
+		};
+		5660490021B6359A0075026F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5660490121B635AF0075026F /* User.swift */,
+				5660490321B6582A0075026F /* Serializable.swift */,
+				5660490521B65F2C0075026F /* Song.swift */,
+				5660490721B664F60075026F /* Party.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5660490921B7956E0075026F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5660491021BCA0C90075026F /* Services */,
+				5660490A21B795B10075026F /* Request.swift */,
+				5660490E21BC9F0F0075026F /* ResultCallback.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5660491021BCA0C90075026F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5660491121BCA0D30075026F /* AuthenticationServices */,
+				5660491B21BCD77D0075026F /* AddSongToPartyService.swift */,
+				5660491D21BCD8BE0075026F /* CreatePartyService.swift */,
+				5660491F21BCD91D0075026F /* CreateTemporaryUserService.swift */,
+				5660492121BCD9D70075026F /* FinishSongService.swift */,
+				5660492321BCDA990075026F /* GetPartyDetailsService.swift */,
+				5660492521BCDAE40075026F /* IncrementSongVoteCountService.swift */,
+				5660492721BCDB2A0075026F /* JoinPartyService.swift */,
+				5660492921BCDB7A0075026F /* LeavePartyService.swift */,
+				5660492B21BCDBE40075026F /* RemoveSongFromPartyService.swift */,
+				5660492D21BCDC1B0075026F /* SendFCMTokenService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5660491121BCA0D30075026F /* AuthenticationServices */ = {
+			isa = PBXGroup;
+			children = (
+				5660491221BCA16F0075026F /* AttemptLoginService.swift */,
+				5660491421BCAEFD0075026F /* GetAccessTokenService.swift */,
+				5660491621BCAFD80075026F /* GetRefreshedAccessTokenService.swift */,
+			);
+			path = AuthenticationServices;
+			sourceTree = "<group>";
+		};
+		5660491821BCB0360075026F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5660491921BCB0740075026F /* ApplicationUtil.swift */,
+				5660492F21BD020C0075026F /* jsonUtil.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +359,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5660492C21BCDBE40075026F /* RemoveSongFromPartyService.swift in Sources */,
+				5660492A21BCDB7A0075026F /* LeavePartyService.swift in Sources */,
+				5660492021BCD91D0075026F /* CreateTemporaryUserService.swift in Sources */,
+				5660491721BCAFD80075026F /* GetRefreshedAccessTokenService.swift in Sources */,
+				5660492421BCDA990075026F /* GetPartyDetailsService.swift in Sources */,
+				5660491C21BCD77D0075026F /* AddSongToPartyService.swift in Sources */,
+				5660491E21BCD8BE0075026F /* CreatePartyService.swift in Sources */,
+				5660490421B6582A0075026F /* Serializable.swift in Sources */,
 				566048D521B62DE70075026F /* ViewController.swift in Sources */,
+				5660490221B635AF0075026F /* User.swift in Sources */,
+				5660490F21BC9F0F0075026F /* ResultCallback.swift in Sources */,
 				566048D321B62DE70075026F /* AppDelegate.swift in Sources */,
+				5660492621BCDAE40075026F /* IncrementSongVoteCountService.swift in Sources */,
+				5660491321BCA16F0075026F /* AttemptLoginService.swift in Sources */,
+				5660493021BD020C0075026F /* jsonUtil.swift in Sources */,
+				5660492E21BCDC1B0075026F /* SendFCMTokenService.swift in Sources */,
+				5660490B21B795B10075026F /* Request.swift in Sources */,
+				5660492221BCD9D70075026F /* FinishSongService.swift in Sources */,
+				5660492821BCDB2A0075026F /* JoinPartyService.swift in Sources */,
+				5660490821B664F60075026F /* Party.swift in Sources */,
+				5660491521BCAEFD0075026F /* GetAccessTokenService.swift in Sources */,
+				5660491A21BCB0740075026F /* ApplicationUtil.swift in Sources */,
+				5660490621B65F2C0075026F /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
