@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3497AA4D83B3738A236A10B1 /* Pods_SharePlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866DD7797138623A25CE99CA /* Pods_SharePlay.framework */; };
 		566048D321B62DE70075026F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566048D221B62DE70075026F /* AppDelegate.swift */; };
 		566048D521B62DE70075026F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566048D421B62DE70075026F /* ViewController.swift */; };
 		566048D821B62DE70075026F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566048D621B62DE70075026F /* Main.storyboard */; };
@@ -35,6 +36,13 @@
 		5660492C21BCDBE40075026F /* RemoveSongFromPartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492B21BCDBE40075026F /* RemoveSongFromPartyService.swift */; };
 		5660492E21BCDC1B0075026F /* SendFCMTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492D21BCDC1B0075026F /* SendFCMTokenService.swift */; };
 		5660493021BD020C0075026F /* jsonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660492F21BD020C0075026F /* jsonUtil.swift */; };
+		56A7610221CB7CC7005C4CF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A7610121CB7CC7005C4CF8 /* GoogleService-Info.plist */; };
+		56A7610321CB7CC7005C4CF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A7610121CB7CC7005C4CF8 /* GoogleService-Info.plist */; };
+		56A7610421CB7CC7005C4CF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A7610121CB7CC7005C4CF8 /* GoogleService-Info.plist */; };
+		56C8257521CB8BD900043563 /* FCMUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8257421CB8BD900043563 /* FCMUtil.swift */; };
+		56F505B521CB811B008CDDF2 /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F505B421CB811B008CDDF2 /* SpotifyManager.swift */; };
+		6766D90ED6B538B5FD0BB2BD /* Pods_SharePlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10313D1DB9DD5A0025E04E5C /* Pods_SharePlayTests.framework */; };
+		E229B0B13D1013A1F86B039B /* Pods_SharePlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44778F55667AC4DCF25CF0D0 /* Pods_SharePlayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F6BD66E5FE6E686EB1B767 /* Pods-SharePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharePlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharePlay/Pods-SharePlay.release.xcconfig"; sourceTree = "<group>"; };
+		10313D1DB9DD5A0025E04E5C /* Pods_SharePlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharePlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1051B2DF6CDAB08E4FFC29CD /* Pods-SharePlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharePlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharePlayUITests/Pods-SharePlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33A12C9F5BFD30571D905FA1 /* Pods-SharePlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharePlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharePlayUITests/Pods-SharePlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44778F55667AC4DCF25CF0D0 /* Pods_SharePlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharePlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		566048CF21B62DE70075026F /* SharePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566048D221B62DE70075026F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		566048D421B62DE70075026F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +102,13 @@
 		5660492B21BCDBE40075026F /* RemoveSongFromPartyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveSongFromPartyService.swift; sourceTree = "<group>"; };
 		5660492D21BCDC1B0075026F /* SendFCMTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFCMTokenService.swift; sourceTree = "<group>"; };
 		5660492F21BD020C0075026F /* jsonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonUtil.swift; sourceTree = "<group>"; };
+		56A7610121CB7CC7005C4CF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56C8257421CB8BD900043563 /* FCMUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCMUtil.swift; sourceTree = "<group>"; };
+		56F505B421CB811B008CDDF2 /* SpotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+		866DD7797138623A25CE99CA /* Pods_SharePlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharePlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906029E1C48B499421C0B670 /* Pods-SharePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharePlay/Pods-SharePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		D5CD48BE1D692D142C5AEE45 /* Pods-SharePlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharePlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharePlayTests/Pods-SharePlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB191A7C883EA5ACE7ED384 /* Pods-SharePlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharePlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharePlayTests/Pods-SharePlayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3497AA4D83B3738A236A10B1 /* Pods_SharePlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6766D90ED6B538B5FD0BB2BD /* Pods_SharePlayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +132,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E229B0B13D1013A1F86B039B /* Pods_SharePlayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		266A9B773CD20EE82D4FB045 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				906029E1C48B499421C0B670 /* Pods-SharePlay.debug.xcconfig */,
+				03F6BD66E5FE6E686EB1B767 /* Pods-SharePlay.release.xcconfig */,
+				D5CD48BE1D692D142C5AEE45 /* Pods-SharePlayTests.debug.xcconfig */,
+				DEB191A7C883EA5ACE7ED384 /* Pods-SharePlayTests.release.xcconfig */,
+				33A12C9F5BFD30571D905FA1 /* Pods-SharePlayUITests.debug.xcconfig */,
+				1051B2DF6CDAB08E4FFC29CD /* Pods-SharePlayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		566048C621B62DE70075026F = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +159,8 @@
 				566048E621B62DE90075026F /* SharePlayTests */,
 				566048F121B62DE90075026F /* SharePlayUITests */,
 				566048D021B62DE70075026F /* Products */,
+				266A9B773CD20EE82D4FB045 /* Pods */,
+				CA7AFAC5D7E6CC0F824B10BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +177,7 @@
 		566048D121B62DE70075026F /* SharePlay */ = {
 			isa = PBXGroup;
 			children = (
+				56F505B321CB8104008CDDF2 /* Spotify */,
 				5660491821BCB0360075026F /* Utils */,
 				5660490921B7956E0075026F /* API */,
 				5660490021B6359A0075026F /* Models */,
@@ -148,6 +187,7 @@
 				566048D921B62DE80075026F /* Assets.xcassets */,
 				566048DB21B62DE80075026F /* LaunchScreen.storyboard */,
 				566048DE21B62DE80075026F /* Info.plist */,
+				56A7610121CB7CC7005C4CF8 /* GoogleService-Info.plist */,
 			);
 			path = SharePlay;
 			sourceTree = "<group>";
@@ -224,8 +264,28 @@
 			children = (
 				5660491921BCB0740075026F /* ApplicationUtil.swift */,
 				5660492F21BD020C0075026F /* jsonUtil.swift */,
+				56C8257421CB8BD900043563 /* FCMUtil.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		56F505B321CB8104008CDDF2 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				56F505B421CB811B008CDDF2 /* SpotifyManager.swift */,
+			);
+			name = Spotify;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CA7AFAC5D7E6CC0F824B10BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866DD7797138623A25CE99CA /* Pods_SharePlay.framework */,
+				10313D1DB9DD5A0025E04E5C /* Pods_SharePlayTests.framework */,
+				44778F55667AC4DCF25CF0D0 /* Pods_SharePlayUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566048F721B62DE90075026F /* Build configuration list for PBXNativeTarget "SharePlay" */;
 			buildPhases = (
+				06C08FA4BCB9259989068A0E /* [CP] Check Pods Manifest.lock */,
 				566048CB21B62DE70075026F /* Sources */,
 				566048CC21B62DE70075026F /* Frameworks */,
 				566048CD21B62DE70075026F /* Resources */,
+				588BC1EB03A27B560D12E284 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566048FA21B62DE90075026F /* Build configuration list for PBXNativeTarget "SharePlayTests" */;
 			buildPhases = (
+				D2791BBCDC352CAB7BD1392F /* [CP] Check Pods Manifest.lock */,
 				566048DF21B62DE90075026F /* Sources */,
 				566048E021B62DE90075026F /* Frameworks */,
 				566048E121B62DE90075026F /* Resources */,
@@ -270,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566048FD21B62DE90075026F /* Build configuration list for PBXNativeTarget "SharePlayUITests" */;
 			buildPhases = (
+				6CBB0C9EF5C60AD2F23B26CC /* [CP] Check Pods Manifest.lock */,
 				566048EA21B62DE90075026F /* Sources */,
 				566048EB21B62DE90075026F /* Frameworks */,
 				566048EC21B62DE90075026F /* Resources */,
@@ -333,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				566048DD21B62DE80075026F /* LaunchScreen.storyboard in Resources */,
+				56A7610221CB7CC7005C4CF8 /* GoogleService-Info.plist in Resources */,
 				566048DA21B62DE80075026F /* Assets.xcassets in Resources */,
 				566048D821B62DE70075026F /* Main.storyboard in Resources */,
 			);
@@ -342,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A7610321CB7CC7005C4CF8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,10 +415,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A7610421CB7CC7005C4CF8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C08FA4BCB9259989068A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharePlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588BC1EB03A27B560D12E284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SharePlay/Pods-SharePlay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharePlay/Pods-SharePlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBB0C9EF5C60AD2F23B26CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharePlayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2791BBCDC352CAB7BD1392F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharePlayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		566048CB21B62DE70075026F /* Sources */ = {
@@ -372,8 +534,10 @@
 				5660490F21BC9F0F0075026F /* ResultCallback.swift in Sources */,
 				566048D321B62DE70075026F /* AppDelegate.swift in Sources */,
 				5660492621BCDAE40075026F /* IncrementSongVoteCountService.swift in Sources */,
+				56F505B521CB811B008CDDF2 /* SpotifyManager.swift in Sources */,
 				5660491321BCA16F0075026F /* AttemptLoginService.swift in Sources */,
 				5660493021BD020C0075026F /* jsonUtil.swift in Sources */,
+				56C8257521CB8BD900043563 /* FCMUtil.swift in Sources */,
 				5660492E21BCDC1B0075026F /* SendFCMTokenService.swift in Sources */,
 				5660490B21B795B10075026F /* Request.swift in Sources */,
 				5660492221BCD9D70075026F /* FinishSongService.swift in Sources */,
@@ -554,6 +718,7 @@
 		};
 		566048F821B62DE90075026F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906029E1C48B499421C0B670 /* Pods-SharePlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -571,6 +736,7 @@
 		};
 		566048F921B62DE90075026F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F6BD66E5FE6E686EB1B767 /* Pods-SharePlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +754,7 @@
 		};
 		566048FB21B62DE90075026F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CD48BE1D692D142C5AEE45 /* Pods-SharePlayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -608,6 +775,7 @@
 		};
 		566048FC21B62DE90075026F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB191A7C883EA5ACE7ED384 /* Pods-SharePlayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -628,6 +796,7 @@
 		};
 		566048FE21B62DE90075026F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A12C9F5BFD30571D905FA1 /* Pods-SharePlayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -647,6 +816,7 @@
 		};
 		566048FF21B62DE90075026F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1051B2DF6CDAB08E4FFC29CD /* Pods-SharePlayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

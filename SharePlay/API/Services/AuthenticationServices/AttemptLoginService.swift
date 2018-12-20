@@ -16,6 +16,7 @@ class AttemptLoginService {
         request.setUrl(url: "attemptLogin/")
         request.addParameter(key: "email", value: email)
         request.addParameter(key: "product", value: product)
+        request.addParameter(key: "firebase_refresh_token", value:FCMUtil.instance.fcmToken)
         request.sendRequest(resultCallback: requestCallback)
     }
 }
